@@ -40,6 +40,6 @@ test('user can fill out and submit form',async () => {
     const messageInput = screen.getByText(/abc and 123/i)
     expect(messageInput).toBeTruthy()
 
-    expect(validator.validate('april@gmail.com')).toBeTruthy
+    expect(validator.validate('april@gmail.com')).toBeTruthy()
   });
 })
